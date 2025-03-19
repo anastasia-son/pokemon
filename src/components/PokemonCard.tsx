@@ -35,7 +35,7 @@ function PokemonCard({pokemon, onClickDetail}: PokemonProps) {
           type="button"
           data-bs-modal="modal"
           data-bs-target="pokemon-detail"
-          className="btn btn-link px-0 text-black"
+          className="btn btn-warning mt-2"
           onClick={() => onClickDetail(pokemon.id)}
         >
           Details
